@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansBoldItalic.eot');
+    src: local('Alacrity Sans Bold Italic'), local('AlacritySansBoldItalic'),
+        url('AlacritySansBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansBoldItalic.woff2') format('woff2'),
+        url('AlacritySansBoldItalic.woff') format('woff'),
+        url('AlacritySansBoldItalic.ttf') format('truetype'),
+        url('AlacritySansBoldItalic.svg#AlacritySansBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansBlack.eot');
+    src: local('Alacrity Sans Black'), local('AlacritySansBlack'),
+        url('AlacritySansBlack.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansBlack.woff2') format('woff2'),
+        url('AlacritySansBlack.woff') format('woff'),
+        url('AlacritySansBlack.ttf') format('truetype'),
+        url('AlacritySansBlack.svg#AlacritySansBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansBlackItalic.eot');
+    src: local('Alacrity Sans Black Italic'), local('AlacritySansBlackItalic'),
+        url('AlacritySansBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansBlackItalic.woff2') format('woff2'),
+        url('AlacritySansBlackItalic.woff') format('woff'),
+        url('AlacritySansBlackItalic.ttf') format('truetype'),
+        url('AlacritySansBlackItalic.svg#AlacritySansBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansRegular.eot');
+    src: local('Alacrity Sans Regular'), local('AlacritySansRegular'),
+        url('AlacritySansRegular.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansRegular.woff2') format('woff2'),
+        url('AlacritySansRegular.woff') format('woff'),
+        url('AlacritySansRegular.ttf') format('truetype'),
+        url('AlacritySansRegular.svg#AlacritySansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansLight.eot');
+    src: local('Alacrity Sans Light'), local('AlacritySansLight'),
+        url('AlacritySansLight.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansLight.woff2') format('woff2'),
+        url('AlacritySansLight.woff') format('woff'),
+        url('AlacritySansLight.ttf') format('truetype'),
+        url('AlacritySansLight.svg#AlacritySansLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansItalic.eot');
+    src: local('Alacrity Sans Italic'), local('AlacritySansItalic'),
+        url('AlacritySansItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansItalic.woff2') format('woff2'),
+        url('AlacritySansItalic.woff') format('woff'),
+        url('AlacritySansItalic.ttf') format('truetype'),
+        url('AlacritySansItalic.svg#AlacritySansItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansLightItalic.eot');
+    src: local('Alacrity Sans Light Italic'), local('AlacritySansLightItalic'),
+        url('AlacritySansLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansLightItalic.woff2') format('woff2'),
+        url('AlacritySansLightItalic.woff') format('woff'),
+        url('AlacritySansLightItalic.ttf') format('truetype'),
+        url('AlacritySansLightItalic.svg#AlacritySansLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansSemiboldItalic.eot');
+    src: local('Alacrity Sans Semibold Italic'), local('AlacritySansSemiboldItalic'),
+        url('AlacritySansSemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansSemiboldItalic.woff2') format('woff2'),
+        url('AlacritySansSemiboldItalic.woff') format('woff'),
+        url('AlacritySansSemiboldItalic.ttf') format('truetype'),
+        url('AlacritySansSemiboldItalic.svg#AlacritySansSemiboldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansSemibold.eot');
+    src: local('Alacrity Sans Semibold'), local('AlacritySansSemibold'),
+        url('AlacritySansSemibold.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansSemibold.woff2') format('woff2'),
+        url('AlacritySansSemibold.woff') format('woff'),
+        url('AlacritySansSemibold.ttf') format('truetype'),
+        url('AlacritySansSemibold.svg#AlacritySansSemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansBold.eot');
+    src: local('Alacrity Sans Bold'), local('AlacritySansBold'),
+        url('AlacritySansBold.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansBold.woff2') format('woff2'),
+        url('AlacritySansBold.woff') format('woff'),
+        url('AlacritySansBold.ttf') format('truetype'),
+        url('AlacritySansBold.svg#AlacritySansBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansBold_1.eot');
+    src: local('Alacrity Sans Bold'), local('AlacritySansBold'),
+        url('AlacritySansBold_1.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansBold_1.woff2') format('woff2'),
+        url('AlacritySansBold_1.woff') format('woff'),
+        url('AlacritySansBold_1.ttf') format('truetype'),
+        url('AlacritySansBold_1.svg#AlacritySansBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansBoldItalic_1.eot');
+    src: local('Alacrity Sans Bold Italic'), local('AlacritySansBoldItalic'),
+        url('AlacritySansBoldItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansBoldItalic_1.woff2') format('woff2'),
+        url('AlacritySansBoldItalic_1.woff') format('woff'),
+        url('AlacritySansBoldItalic_1.ttf') format('truetype'),
+        url('AlacritySansBoldItalic_1.svg#AlacritySansBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansBlack_1.eot');
+    src: local('Alacrity Sans Black'), local('AlacritySansBlack'),
+        url('AlacritySansBlack_1.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansBlack_1.woff2') format('woff2'),
+        url('AlacritySansBlack_1.woff') format('woff'),
+        url('AlacritySansBlack_1.ttf') format('truetype'),
+        url('AlacritySansBlack_1.svg#AlacritySansBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansItalic_1.eot');
+    src: local('Alacrity Sans Italic'), local('AlacritySansItalic'),
+        url('AlacritySansItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansItalic_1.woff2') format('woff2'),
+        url('AlacritySansItalic_1.woff') format('woff'),
+        url('AlacritySansItalic_1.ttf') format('truetype'),
+        url('AlacritySansItalic_1.svg#AlacritySansItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansBlackItalic_1.eot');
+    src: local('Alacrity Sans Black Italic'), local('AlacritySansBlackItalic'),
+        url('AlacritySansBlackItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansBlackItalic_1.woff2') format('woff2'),
+        url('AlacritySansBlackItalic_1.woff') format('woff'),
+        url('AlacritySansBlackItalic_1.ttf') format('truetype'),
+        url('AlacritySansBlackItalic_1.svg#AlacritySansBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansRegular_1.eot');
+    src: local('Alacrity Sans Regular'), local('AlacritySansRegular'),
+        url('AlacritySansRegular_1.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansRegular_1.woff2') format('woff2'),
+        url('AlacritySansRegular_1.woff') format('woff'),
+        url('AlacritySansRegular_1.ttf') format('truetype'),
+        url('AlacritySansRegular_1.svg#AlacritySansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansLight_1.eot');
+    src: local('Alacrity Sans Light'), local('AlacritySansLight'),
+        url('AlacritySansLight_1.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansLight_1.woff2') format('woff2'),
+        url('AlacritySansLight_1.woff') format('woff'),
+        url('AlacritySansLight_1.ttf') format('truetype'),
+        url('AlacritySansLight_1.svg#AlacritySansLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansSemibold_1.eot');
+    src: local('Alacrity Sans Semibold'), local('AlacritySansSemibold'),
+        url('AlacritySansSemibold_1.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansSemibold_1.woff2') format('woff2'),
+        url('AlacritySansSemibold_1.woff') format('woff'),
+        url('AlacritySansSemibold_1.ttf') format('truetype'),
+        url('AlacritySansSemibold_1.svg#AlacritySansSemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansSemiboldItalic_1.eot');
+    src: local('Alacrity Sans Semibold Italic'), local('AlacritySansSemiboldItalic'),
+        url('AlacritySansSemiboldItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansSemiboldItalic_1.woff2') format('woff2'),
+        url('AlacritySansSemiboldItalic_1.woff') format('woff'),
+        url('AlacritySansSemiboldItalic_1.ttf') format('truetype'),
+        url('AlacritySansSemiboldItalic_1.svg#AlacritySansSemiboldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alacrity Sans';
+    src: url('AlacritySansLightItalic_1.eot');
+    src: local('Alacrity Sans Light Italic'), local('AlacritySansLightItalic'),
+        url('AlacritySansLightItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('AlacritySansLightItalic_1.woff2') format('woff2'),
+        url('AlacritySansLightItalic_1.woff') format('woff'),
+        url('AlacritySansLightItalic_1.ttf') format('truetype'),
+        url('AlacritySansLightItalic_1.svg#AlacritySansLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
