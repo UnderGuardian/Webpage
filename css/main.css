@@ -315,6 +315,7 @@ textarea {
   display: flex;
   height: 100%;
   margin: 0 auto;
+  background-color: var(--secondary-color);
 }
 
 /*  ==========================================================================
@@ -325,8 +326,7 @@ textarea {
   color: var(--accent); /* Text's default color */
   position: relative;
   font-size: 2em;
-  /* background-color: var(--primary-color); */
-  background-color: #222;
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -407,92 +407,70 @@ textarea {
   width: 60px;
   height: 60px;
   align-items: center;
-  margin: 6px 6px;
 
   vertical-align: middle;
 }
 
 .circle {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   overflow: hidden;
-
+  
   border-radius: 50%;
   background-color: white;
-  transform: translate(-5px, 15px) scale(2);
+
+  transform: scale(0.84);
 }
 
 .circle:hover {
   cursor: pointer;
 }
 
+#logoContainer {
+  width: 300px;
+  height: 300px;
+  transform: translate(-120px, -120.5px) scale(0.2);
+}
+
 #facebookLogo {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  transform: translate(5.7px, 7px);
-
-  color: var(--primary-color);
-}
-
-#facebookLogo::after,
-#facebookLogo::before {
-  content: "";
-  display: block;
   position: absolute;
-  box-sizing: border-box;
+  width: 292px;
+  height: 274.75px;
+  transform: translate(6.3px, 42.5px) scale(0.9);
 }
 
-/*? Logo's middle stick ?*/
-#facebookLogo::before {
-  width: 5px;
-  height: 23px;
-
-  left: 6.5px;
-  background-color: var(--primary-color);
-  opacity: 30%;
-  border-top-left-radius: 6.5px;
-}
-/*? End of Logo's middle stick ?*/
-
-/*? Logo's top line ?*/
-#facebookTop {
-  position: relative;
-  width: 10px;
-  height: 5.4px;
-
-  bottom: 13.8px;
-  left: 12.5px;
-
-  background-color: #000;
-  border-top-left-radius: 6.5px;
-}
-
-/*? End of Logo's top line ?*/
-
-/*? Logo's middle line ?*/
-#facebookLogo::after {
-  background-color: var(--primary-color);
-  width: 12.3px;
-  height: 4.5px;
-
-  top: 7.5px;
-  left: 3.4px;
-
-  transform: skew(-9deg);
-}
-
-#facebookMiddle {
+#outerCage {
   position: absolute;
-  background-color: var(--primary-color);
+  width: 200px;
+  height: 200px;
+  border: 20px solid var(--secondary-color);
+  border-radius: 28%;
 
-  top: 14.5px;
-  left: 8.4px;
-
-  width: 1.2px;
-  height: 5px;
+  transform: translate(50px, 52px) scale(1.13);
 }
-/*? End of Logo's middle line ?*/
+
+#dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+
+  border: 10px solid var(--secondary-color);
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+
+  transform: translate(195px, 77.5px) scale(0.9);
+}
+
+#innerCircle {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+
+  border: 21px solid var(--secondary-color);
+  border-radius: 50%;
+
+  transform: translate(90px, 92.4px) scale(0.96);
+}
 
 /*  ==========================================================================
   * About.html
@@ -500,13 +478,18 @@ textarea {
 */
 
 #About_mainContainer {
-  align-items: center;
+  display: flex;
   flex-direction: row;
-  margin: 2ch 0;
+  align-items: flex-start;
+  height: 100%;
+
+  background-color: var(--secondary-color);
+  color: var(--accent);
 }
 
 #companyDescContainer {
   display: flex;
+  margin: 2ch 0;
   flex-direction: row;
   align-items: center;
   position: relative;
@@ -545,7 +528,10 @@ textarea {
   align-content: center;
   overflow-x: hidden;
   overflow-y: scroll;
+
   min-height: 100vh;
+  height: 100%;
+  background-color: var(--secondary-color);
 }
 
 #Projects_projectContainer,
@@ -559,14 +545,18 @@ textarea {
 
 .Projects_projectPost,
 .Blog_post {
-  box-shadow: 0 0 10px 5px rgb(6 40 69 / 50%); /** --primary-color in RGB is (6, 40, 69)  **/
+  display: flex;
   max-width: 522px;
   width: max-content;
+
+  /** --primary-color in RGB is (6, 40, 69)  --accent in RGB is (0, 219, 255) **/
+  box-shadow: 0 0 10px 5px rgb(0, 219, 255 / 50%);
   padding: 2em;
   margin: 10px;
   border: 1px solid var(--primary-color);
+  background-color: white;
   border-radius: 10px;
-  display: flex;
+
   flex-direction: column;
   align-items: center;
 
@@ -578,7 +568,7 @@ textarea {
 .Blog_post:hover {
   cursor: pointer;
   transform: scale(1.03);
-  box-shadow: 0 0 10px 5px rgb(6, 40, 69, 0.5);
+  box-shadow: 0 0 10px 5px rgb(0, 219, 255, 0.5);
 }
 
 .Project_title,
