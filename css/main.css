@@ -420,10 +420,13 @@ textarea {
   background-color: white;
 
   transform: scale(0.84);
+  transition: all 0.7s;
 }
 
 .circle:hover {
   cursor: pointer;
+  transform: scale(0.905);
+  box-shadow: 0 0 10px 5px rgb(220, 220, 220, 0.5);
 }
 
 #logoContainer {
