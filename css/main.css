@@ -608,12 +608,13 @@ textarea {
 }
 
 /*  ==========================================================================
-  * Projects.html & Blog.html
+  * Projects.html & Blog.html & Incomes.html
   * ==========================================================================
 */
 
 #Projects_mainContainer,
-#Blog_mainContainer {
+#Blog_mainContainer,
+#Incomes_mainContainer {
   align-items: center;
   position: relative;
   align-content: center;
@@ -626,7 +627,8 @@ textarea {
 }
 
 #Projects_projectContainer,
-#Blog_blogContainer {
+#Blog_blogContainer,
+#Incomes_graphContainer {
   padding-top: 2%;
   display: flex;
   flex-wrap: wrap;
@@ -680,4 +682,31 @@ textarea {
   font-size: 1.4em;
   font-weight: 400;
   text-overflow: ellipsis;
+}
+
+/*  ==========================================================================
+  * Incomes.html
+  * ==========================================================================
+*/
+
+.Incomes_graphPost {
+  display: flex;
+  max-width: 625px;
+  width: max-content;
+  
+  padding: 2em;
+  margin: 10px;
+  margin-bottom: 0;
+  border: 1px solid var(--primary-color);
+  background-color: white;
+  border-radius: 10px;
+  
+  flex-direction: column;
+  align-items: center;
+  
+  text-align: center;
+}
+
+.Incomes_graphPost > h5 {
+  font-size: 25px;
 }
