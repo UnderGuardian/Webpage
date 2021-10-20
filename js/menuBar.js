@@ -26,6 +26,11 @@ menuBarDiv.innerHTML = `
             <span class="hover hover-1">Ingresos</span>
           </div>
         </a>
+        <a href="https://forms.gle/kCDtHY3p8zLtVx7k8">
+          <div class="MenuBar_menuItem">
+            <span class="hover hover-1">Evaluanos!</span>
+          </div>
+        </a>
       </div>
       <div class="socialContainer">
         <div class="circle" onclick="window.open('https://www.facebook.com/VideojuegosFrostBolt/');">
