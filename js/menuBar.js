@@ -1,3 +1,5 @@
+document.write('<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>');
+
 const menuBarDiv = document.createElement("div");
 menuBarDiv.id = "MenuBar_menubar";
 
