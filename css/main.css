@@ -435,6 +435,13 @@ textarea {
   transform: translate(6.3px, 42.5px) scale(0.9);
 }
 
+#emailLogo {
+  position: absolute;
+  width: 292px;
+  height: 274.75px;
+  transform: translate(6.3px, 17px) scale(0.8);
+}
+
 #outerCage {
   position: absolute;
   width: 200px;
@@ -489,7 +496,7 @@ textarea {
 
 #About_mainContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   height: 100%;
 
@@ -497,7 +504,7 @@ textarea {
   color: var(--accent);
 }
 
-#companyDescContainer {
+.About_textContainer {
   display: flex;
   margin: 2ch 0;
   flex-direction: row;
@@ -507,22 +514,21 @@ textarea {
   left: 25%;
 }
 
-#companyDescContainer span {
-  position: relative;
+.About_textContainer span {
   margin-bottom: 0.5%;
   font-size: 36px;
+
   vertical-align: middle;
 }
 
-#companyDescContainer p {
-  position: relative;
-  margin: 0 10ch;
+.About_textContainer p {
+  margin: 0 5ch;
   vertical-align: middle;
 
   font-size: 28px;
   font-weight: 500;
 
-  max-width: 500px;
+  max-width: 50%;
   overflow-wrap: break-word;
 }
 
@@ -580,6 +586,8 @@ textarea {
 .Blog_post:hover {
   cursor: pointer;
   transform: scale(1.03);
+
+  border-color: transparent;
   box-shadow: 0 0 10px 5px rgba(0, 219, 255, 0.5);
 }
 
@@ -628,4 +636,49 @@ textarea {
 
 .Incomes_graphPost > h5 {
   font-size: 25px;
+}
+
+/*  ==========================================================================
+  * Founder.html
+  * ==========================================================================
+*/
+
+#Founder_mainContainer {
+  display: flex;
+  height: 100%;
+  min-width: 980px;
+
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+}
+
+#Founder_displayContainer {
+  display: flex;
+  flex-direction: row;
+  
+  margin: 5ch 5ch;
+  color: var(--accent);
+
+  transform: translateX(25%);
+}
+
+#Founder_displayContainer > img {
+  margin: 0 30px;
+  filter: grayscale();
+}
+
+#Founder_infoContainer {
+  margin: 0 5ch;
+}
+
+#Founder_name {
+  font-size: 47px;
+}
+
+#Founder_desc {
+  font-size: 24pt;
+  font-weight: 500;
+
+  max-width: 680px;
+  word-wrap: break-word;
 }

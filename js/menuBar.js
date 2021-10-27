@@ -31,6 +31,23 @@ menuBarDiv.innerHTML = `
             <span class="hover hover-1">Evaluanos!</span>
           </div>
         </a>
+        <a href="./founder.html">
+          <div class="MenuBar_menuItem">
+            <span class="hover hover-1">Fundador</span>
+          </div>
+        </a>
+      </div>
+      <div class="socialContainer">
+        <div class="circle" onclick="swal('Email', 'contacto@frostbolt.com', 'info')">
+          <div id="logoContainer">
+            <svg id="emailLogo" viewBox="0 0 22 18">
+              <g fill="none" fill-rule="evenodd" stroke="var(--primary-color)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(1 1)">
+                <path d="M2 0h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V2C0 .9.9 0 2 0z"/>
+                <path d="M20 2L10 9 0 2"/>
+              </g>
+            </svg>
+          </div>
+        </div>
       </div>
       <div class="socialContainer">
         <div class="circle" onclick="window.open('https://www.facebook.com/VideojuegosFrostBolt/');">
@@ -43,7 +60,7 @@ menuBarDiv.innerHTML = `
           </div>
         </div>
       </div>
-      <div class="socialContainer" style="margin-left: 7px; margin-right: 14px;">
+      <div class="socialContainer" style="margin-right: 14px;">
         <div class="circle" onclick="window.open('https://www.instagram.com/frostbolt_/')">
           <div id="logoContainer">
               <div id="outerCage"></div>
